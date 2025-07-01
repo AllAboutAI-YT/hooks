@@ -2,6 +2,8 @@
 
 A simple and efficient command-line tool to check if a number is prime or not. Can also add multiple integers and check if their sum is prime.
 
+**Author:** Kris, All About AI
+
 ## Features
 
 - Check if a single number is prime
@@ -56,6 +58,7 @@ The tool uses an optimized prime checking algorithm:
 
 - Python 3.6 or higher
 - No external dependencies required
+- Cross-platform support (Windows, macOS, Linux)
 
 ## Installation
 
