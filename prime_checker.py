@@ -20,7 +20,7 @@ import sys
 import math
 
 
-def _def_is_primes(n):
+def def_is_prime(n):
     """
     Check if a number is prime.
     
@@ -58,7 +58,7 @@ def check_sum_prime(*args):
         tuple: (sum, is_prime_result) where sum is the total and is_prime_result is boolean
     """
     sum_result = sum(args)
-    return sum_result, _def_is_primes(sum_result)
+    return sum_result, def_is_prime(sum_result)
 
 
 def main():
@@ -82,7 +82,7 @@ def main():
                 print("Error: Please provide a non-negative integer.")
                 sys.exit(1)
             
-            if _def_is_primes(number):
+            if def_is_prime(number):
                 print(f"{number} is a prime number.")
             else:
                 print(f"{number} is not a prime number.")
