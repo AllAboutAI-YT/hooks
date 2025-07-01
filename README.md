@@ -2,7 +2,7 @@
 
 A simple and efficient command-line tool to check if a number is prime or not. Can also add multiple integers and check if their sum is prime.
 
-**Author:** Kris, All About AI
+**Author:** Kristian
 
 ## Features
 
@@ -19,6 +19,7 @@ Check if a single number is prime:
 python prime_checker.py <number>
 ```
 
+<<<<<<< HEAD
 Example:
 ```bash
 python prime_checker.py 17
@@ -90,3 +91,25 @@ $ python prime_checker.py 10 20 30
 10 + 20 + 30 = 60
 60 is not a prime number.
 ```
+=======
+### Examples
+
+```bash
+python prime_checker.py 17    # Output: 17 is a prime number.
+python prime_checker.py 24    # Output: 24 is not a prime number.
+python prime_checker.py 2     # Output: 2 is a prime number.
+```
+
+## Features
+
+- Efficient prime checking algorithm
+- Input validation for integers
+- Error handling for invalid inputs
+- Clear usage instructions
+- Command-line interface
+
+## Requirements
+
+- Python 3.x
+- No external dependencies required
+>>>>>>> f2bee40 (Auto-commit: Code changes made by Claude)
