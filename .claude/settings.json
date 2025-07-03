@@ -1,15 +1,1 @@
-{
-  "hooks": {
-    "PostToolUse": [
-      {
-        "matcher": "*",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "afplay cat2.mp3"
-          }
-        ]
-      }
-    ]
-  }
-}
+{}
